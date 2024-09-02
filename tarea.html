@@ -106,6 +106,27 @@
             flex: 1 0 0;
             align-self: stretch;
         }
+        .smol-stuff{
+            font-size: small;
+        }
+        .date{
+            display: flex;
+            gap: 10px;
+        }
+        .social-balls-container{
+            display: flex;
+            gap: 10px;
+            padding: 5px;
+        }
+        .social-ball{
+            min-width: 30px;
+            min-height: 30px;
+            background-color: white;
+            border-radius: 100%;
+        }
+        .doom{
+            font-size: smaller;
+        }
         
     </style>
     <meta charset="UTF-8">
@@ -168,10 +189,31 @@
             <h4 style="color: yellow;">Technology</h4>
             <h1>Generative AI creates playable version of Doom game with no code</h1>
             <p>A neural network can recreate the classic computer game Doom despite using none of its code or graphics, hinting that generative AI could be used to create games from scratch in future</p>
-            <p>By <a style="color: yellow;"> Matthew Sparkles</a></p>
+            <div class="smol-stuff">
+                <p>By <a style="color: yellow;"> Matthew Sparkles</a></p>
+                <div class="date">
+                    <p>icon</p>
+                    <p>pretend this is a date</p>
+                </div>
+                <div class="social-balls-container">
+                    <div class="social-ball"></div>
+                    <div class="social-ball"></div>
+                    <div class="social-ball"></div>
+                    <div class="social-ball"></div>
+                    <div class="social-ball"></div>
+                    <div class="social-ball"></div>
+                    <div class="social-ball"></div>
+                </div>
+                
+            </div>
+            
         </section>
         <section class="body">
-            <img src="https://images.newscientist.com/wp-content/uploads/2024/08/30153927/SEI_219268252.jpg" width="85%" style="max-width: 500px;">
+            <div class="doom">
+                <img src="https://images.newscientist.com/wp-content/uploads/2024/08/30153927/SEI_219268252.jpg" width="85%" style="max-width: 500px; margin-bottom: -10px;">
+                <p>insert image description</p>
+            </div>
+            
             <div class="paragraph-container">
                 <p>El Tratado de Versalles fue un tratado de 
                     paz que se firmó en la Galería de los Espejos 
