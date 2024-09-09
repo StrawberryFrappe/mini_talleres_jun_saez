@@ -1,0 +1,127 @@
+
+        .upper-grid{
+            justify-content: space-between;
+            display: flex;
+        }
+        .num{
+            color: aqua;
+        }
+        .trend-card{
+            display: flex;
+            gap: 10px;
+        }
+        .trending-news{
+            padding: 20px;
+            background-color: #101010;
+        }
+
+        .trend-deck{
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+            grid-template-columns: repeat(5, 1fr);
+    
+        }
+        .site-header{
+            background-color: #101010;
+            overflow: hidden;
+        }
+        .other-news{ 
+            background-color: rgb(22, 83, 77);
+            padding: 10px;}
+        .card{
+            min-height: 100px;
+            background-color: gray;
+            max-width: 321px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 10px;
+        }
+        .news-container-title{
+            min-height: 100px;
+            padding: 0px 10px;
+        }
+        .other-news-container{
+            display: grid; 
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            gap: 10px;
+        }
+        .annoying-block{
+            border-radius: 10px;
+            background-color: gray; 
+            max-width: 100%; 
+            padding: 0.5% 3%;
+        }
+        .footer-block{
+            min-height: 200px;
+            
+            background-color: gray;}
+        .lower-grid{
+            display: grid; 
+            grid-template-columns: 1fr 1fr;
+        }
+        .text-grid{
+            display: flex;
+            justify-content: space-between;
+        }
+        .site-body{
+            max-width: 808px; 
+            margin: auto;
+        }
+        .page-header{
+            font-size: 1.5rem;
+        }
+        .page{
+            background-color: black; 
+            color: white;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        .fancy-button{
+            color: #101010;
+            align-self: center;
+            border-radius: 20px;
+            background-color: yellow;
+            max-width: fit-content;
+            max-height: fit-content;
+            padding: 3px 10px;
+        }
+        .upper-bar-buttons{
+            display: inline-block; 
+            margin: 10px; 
+            background-color: gray; 
+            padding: 10px;}
+        .lowest-bar{
+            display: flex;
+            justify-content: space-between;
+        }
+        .socials{
+            display: flex;
+            justify-content: space-between;
+        }
+        .image{
+            flex: 1 0 0;
+            align-self: stretch;
+        }
+        .smol-stuff{
+            font-size: small;
+        }
+        .date{
+            display: flex;
+            gap: 10px;
+        }
+        .social-balls-container{
+            display: flex;
+            gap: 10px;
+            padding: 5px;
+        }
+        .social-ball{
+            min-width: 30px;
+            min-height: 30px;
+            background-color: white;
+            border-radius: 100%;
+        }
+        .doom{
+            font-size: smaller;
+        }
+        
