@@ -76,7 +76,7 @@ function createDefault(){
 </script>
 
 <template>
-  <main>
+  <main class="app">
     <button @click="createDefault()">Add default student</button>
     <section>
       <div class="student">
@@ -116,10 +116,13 @@ function createDefault(){
 </template>
 
 <style scoped>
-main{
+.app{
+  background-color: #222222;
+  border-radius: 2rem;
   gap: 2rem;
   display: flex;
   flex-direction: column;
+  padding: 2rem;
 }
 .student{
   display: flex;
@@ -128,6 +131,7 @@ main{
   display: flex;
   width: fit-content;
   flex-direction: column;
+  gap: 0.5rem;
 }
 .header-students{
   display: flex;
