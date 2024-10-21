@@ -3,7 +3,7 @@
 </script>
 
 <template>
-<p>Cinco</p>
+<p>cafe</p>
 </template>
 
 <style scoped>
