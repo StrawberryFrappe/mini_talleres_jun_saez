@@ -3,7 +3,7 @@
 </script>
 
 <template>
-<p>Tres</p>
+<p>de</p>
 </template>
 
 <style scoped>
