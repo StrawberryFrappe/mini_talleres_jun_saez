@@ -7,7 +7,7 @@ import { createMemoryHistory, createRouter } from 'vue-router'
 import Uno from './components/Uno.vue'
 import Dos from './components/Dos.vue'
 import Tres from './components/Tres.vue'
-import Cuatro from '/components/Cuatro.vue'
+import Cuatro from './components/Cuatro.vue'
 import Cinco from "@/components/Cinco.vue";
 
 const routes = [
@@ -22,5 +22,5 @@ const router = createRouter({
   history: createMemoryHistory(),
   routes,
 })
-
+export default router
 createApp(App).use(router).mount('#app')
