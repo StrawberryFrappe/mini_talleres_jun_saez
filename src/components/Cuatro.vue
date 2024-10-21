@@ -3,7 +3,7 @@
 </script>
 
 <template>
-<p>Cuatro</p>
+<p>un</p>
 </template>
 
 <style scoped>
