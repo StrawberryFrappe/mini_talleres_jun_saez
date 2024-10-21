@@ -3,7 +3,7 @@
 </script>
 
 <template>
-<p>Dos</p>
+<p>ganas</p>
 </template>
 
 <style scoped>
