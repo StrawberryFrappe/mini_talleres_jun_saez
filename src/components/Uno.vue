@@ -3,7 +3,7 @@
 </script>
 
 <template>
-<p>Uno</p>
+<p>Tengo</p>
 </template>
 
 <style scoped>
